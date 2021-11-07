@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 import Spinner from '../spinner/Spinner';
@@ -23,7 +23,7 @@ const CharInfo = (props) => {
         if (!charId) {
             return;
         }
-        
+
         clearError();
         getCharacter(charId)
             .then(onCharLoaded);

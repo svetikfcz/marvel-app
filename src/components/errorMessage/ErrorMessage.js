@@ -1,4 +1,3 @@
-import Spinner from '../spinner/Spinner';
 import img from './icons8-error-64.png';
 
 const ErrorMessage = () => {
